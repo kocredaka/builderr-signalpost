@@ -1,0 +1,1 @@
+{"head":{"vars":["org","item","label","sites"]},"results":{"bindings":[{"item":{"type":"uri","value":"https://www.wikidata.org/entity/Q999999030"},"label":{"type":"literal","value":"Totally Unrelated Museum"},"org":{"type":"literal","value":"923609016"},"sites":{"type":"literal","value":"https://museum.example.invalid"}}]}}

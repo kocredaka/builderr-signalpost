@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="https://www.youtube.com/feeds/videos.xml?channel_id=UCabcdefghij1234567890AB"/>
+ <id>yt:channel:UCabcdefghij1234567890AB</id>
+ <yt:channelId>UCabcdefghij1234567890AB</yt:channelId>
+ <title>Oslo Cat Videos</title>
+ <author><name>Oslo Cat Videos</name></author>
+ <entry>
+  <id>yt:video:DDDDDDDDDDD</id>
+  <yt:videoId>DDDDDDDDDDD</yt:videoId>
+  <yt:channelId>UCabcdefghij1234567890AB</yt:channelId>
+  <title>Cats of Oslo</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DDDDDDDDDDD"/>
+  <author><name>Oslo Cat Videos</name></author>
+  <published>2026-10-01T10:00:00+00:00</published>
+  <updated>2026-10-01T10:00:00+00:00</updated>
+ </entry>
+</feed>
