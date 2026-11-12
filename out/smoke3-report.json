@@ -1,0 +1,71 @@
+{
+  "run_id": "smoke-integrated-3",
+  "started_at": "2026-11-12T06:54:05.089888Z",
+  "completed_at": "2026-11-12T06:58:49.928075Z",
+  "expected_count": 100,
+  "emitted_envelopes": 100,
+  "resumed_profiles": 0,
+  "profiles_fetched_this_run": 100,
+  "modules": [
+    "registry",
+    "accounting_obligation",
+    "registry_live",
+    "financials",
+    "roles",
+    "group",
+    "locations",
+    "website",
+    "wikidata",
+    "youtube_activity"
+  ],
+  "registry": {
+    "registry_snapshot_sha256": "1c9d15d7313f68d9eb89f6575b181bfadd035610d5a1761bb61e8e38664a6491",
+    "registry_rows_scanned": 1176597,
+    "requested": 100,
+    "selected": 100
+  },
+  "operations": {
+    "requests": 501,
+    "bytes": 937875,
+    "p50_ms": 2884,
+    "p95_ms": 3493
+  },
+  "refresh": {
+    "previous_profiles": "out/smoke2-profiles.jsonl",
+    "compared": 100,
+    "not_in_previous": 0,
+    "changed_companies": 0,
+    "total_changes": 0,
+    "changes_by_field": {},
+    "errors": []
+  },
+  "contract_output": {
+    "path": "out/smoke3-contract.jsonl",
+    "envelopes": 100,
+    "validation_problems": 0,
+    "problems": []
+  },
+  "wikidata": {
+    "batch_requests": 1,
+    "status_counts": {
+      "not_found": 100
+    },
+    "website_candidates_published": 0
+  },
+  "youtube_activity": {
+    "status_counts": {
+      "not_applicable": 100
+    }
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "exact_expected_count": true,
+      "unique_organisation_numbers": true,
+      "all_entity_states_terminal": true,
+      "all_module_states_terminal": true,
+      "zero_silent_drops": true
+    },
+    "invalid_states": []
+  }
+}
